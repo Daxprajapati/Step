@@ -1,0 +1,114 @@
+@media only screen and (max-width:1024px){
+    .student-img img{
+        width: 100%;
+    }
+    .student-img{
+        display: flex;
+        align-items: center;
+    }
+    .score-box{
+        gap: 15px;
+        display: flex;
+        flex-direction: column;
+    }
+    .section-two-right-box{
+        height: auto;
+        gap: 20px;
+    }
+    .card{
+        height: auto;
+        padding: 15px 0px;
+    }
+    .section-three-bottom{
+        gap: 25px;
+    }
+    .section-three-data{
+        height: auto;
+    }
+    .section-three-top{
+        padding: 15px 0px;
+    }
+}
+
+@media only screen and (max-width:980px){
+    .fa-bars{
+        display: flex !important;
+    }
+    .nav-bar ul{
+        display: none;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .section-one{
+        height: auto;
+    }
+    .section-one-box-left{
+        height: auto;
+    }
+    .section-one-box-left h1{
+        font-size: 50px;
+    }
+    .section-one-box-left h3{
+        font-size: 15px;
+    }
+    .section-three{
+        height: auto;
+    }
+    .card{
+        width: 48%;
+    }
+    .section-three-bottom{
+        gap: 25px;
+    }
+    .section-three{
+        padding: 20px 0px;
+    }
+    .section-three-top{
+        padding-bottom: 20px;
+    }
+
+}
+
+@media only screen and (max-width:480px){
+    .card{
+        width: 100%;
+    }
+    .section-two{
+        height: auto;
+        padding: 20px 0px;
+    }
+    .section-two-data{
+        flex-direction: column;
+    }
+    .section-two-right{
+        width: auto;
+    }
+    .section-two-left{
+        width: auto;
+    }
+    .section-two-right-box{
+        padding: 20px 0px;
+    }
+    .section-one-box{
+        flex-direction: column;
+        flex-flow: column-reverse;
+    }
+    .section-one-box-right{
+        width: auto;
+    }
+    .section-one-box-left{
+        width: auto;
+        padding: 20px 0px;
+    }
+}
+
+
+@media only screen and (max-width:380px){
+    .score-box-one h3{
+        font-size: 15px;
+    }
+    .star{
+        font-size: 10px;
+    }
+}
